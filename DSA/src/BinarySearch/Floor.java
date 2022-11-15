@@ -1,7 +1,7 @@
 package BinarySearch;
 
 /**
- * Time complexity for binary search is O(logn)
+ * Time complexity for binary search is O(logN)
  */
 public class Floor {
     public static void main(String[] args) {
