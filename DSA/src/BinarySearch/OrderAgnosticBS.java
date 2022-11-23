@@ -6,7 +6,7 @@ public class OrderAgnosticBS {
         int[] arr = {89,45,22,18,16,15,3,2,0,-4,-18,-22};
 //        int[] arr = {-18, -12, -4, 0, 2, 3, 4, 15, 16, 18, 22, 45, 89};
         int target = 22;
-        int ans = binarySearch(arr, target);
+        int ans = orderAgnosticBinarySearch(arr, target);
         System.out.println(ans);
     }
 
