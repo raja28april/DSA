@@ -29,7 +29,7 @@ public class Floor {
             }else if(target>arr[mid]){
                 start = mid +1;
             }else {
-                return arr[mid];
+                return mid;
             }
         }
         return end;

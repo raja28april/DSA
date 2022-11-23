@@ -10,7 +10,7 @@ public class OrderAgnosticBS {
         System.out.println(ans);
     }
 
-    static int binarySearch(int[] arr, int target) {
+    static int orderAgnosticBinarySearch(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
 
